@@ -1,7 +1,0 @@
-{%- assign description = content
-    | replace: page.title, ""
-    | strip_html
-    | split: " "
-    | join: " "
-    | escape
-    | truncate: 150 -%}
